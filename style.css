@@ -1,4 +1,12 @@
-nav {
+/** {
+  background-color: #b3cfcb;
+}*/
+h1 {
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+/*nav {
   background-color: rgb(41, 151, 31);
   text-align: center;
   padding-top: 1em;
@@ -7,11 +15,33 @@ nav {
   padding-left: 3em;
 
   padding-right: 3em;
-}
+}*/
 
 nav ul {
   display: flex;
   justify-content: space-around;
   list-style: none;
   width: calc;
+  border: 50px;
+}
+li button {
+  text-align: center;
+  width: 7em;
+  padding-top: 3em;
+  padding-bottom: 3em;
+
+  border-radius: 100%;
+  background-color: grey;
+}
+section {
+  margin-top: 1em;
+  padding: 1em;
+  border: 1px solid grey;
+  background-color: #ecffff;
+}
+h2 {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  text-align: center;
+  background-color: #b3cfcb;
 }
