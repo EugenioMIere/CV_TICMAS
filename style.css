@@ -1,10 +1,17 @@
-/** {
-  background-color: #b3cfcb;
-}*/
+body {
+  background-image: url(textura_1.jpg);
+}
 h1 {
-  text-align: center;
   padding-top: 1em;
   padding-bottom: 1em;
+}
+header {
+  display: flex;
+  justify-content: center;
+}
+header img {
+  width: 7em;
+  margin-right: 5em;
 }
 /*nav {
   background-color: rgb(41, 151, 31);
@@ -32,16 +39,38 @@ li button {
 
   border-radius: 100%;
   background-color: grey;
+  border: 1px solid orange;
 }
 section {
-  margin-top: 1em;
-  padding: 1em;
+  display: none;
+  margin: 2em;
+  padding: 2em;
   border: 1px solid grey;
   background-color: #ecffff;
+}
+#perfil {
+  display: block;
 }
 h2 {
   padding-top: 0.5em;
   padding-bottom: 0.5em;
   text-align: center;
   background-color: #b3cfcb;
+}
+h5 {
+  text-align: center;
+}
+.iconos_redes {
+  display: flex;
+  justify-content: space-around;
+}
+div {
+  margin: 2em;
+  padding: 2em;
+  border: 1px solid grey;
+  background-color: #ecffff;
+}
+div a {
+  padding: 3px;
+  border: 1px solid blue;
 }

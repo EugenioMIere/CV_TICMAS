@@ -11,22 +11,23 @@
 </head>
 <body>
     <header>
-            <H1>Alba Duran: Developer </H1>
+        <img src="person.png" alt="imagen_persona">
+        <H1>Alba Duran: Developer </H1>
   
 
     </header>
     <nav>
         <ul>
             <li>
-                <button id="bper">Perfil</button>
+                <button id="btn_perfil">Perfil</button>
             </li><li>
-                <button>Experiencia</button>
+                <button id="btne_xperiencia">Experiencia</button>
             </li>
             <li>
-                <button>Habilidades</button>
+                <button id="btn_habilidades">Habilidades</button>
             </li>
             <li>
-                <button>Contacto</button>
+                <button id="btn_contacto">Contacto</button>
             </li>
         </ul>
     </nav>
@@ -91,9 +92,9 @@
         </section>
         <section id="contacto">
             <h2>Contacto</h2>
-            <p>Deje su contacto y nos comunicamos</p>
+            <p>Para que pueda contarlo deje sus datos</p>
 
-            <form action="#" name="form" id="formcontact">
+            <form action="#" name="form" id="formcontact" method="post">
                 <input class="campos_form" type="text" id="nombre"
                     placeholder="Ingresa tu nombre y apellido">
     
@@ -102,24 +103,23 @@
     
                 <input class="campos_form" type="tel" id="telefono" name="telefono"
                     placeholder="Ingresa un telefono de contacto">
-    
-                <textarea class="campos_form" name="consulta" id="consulta" rows="10" maxlength="1000"
-                    placeholder="Contanos tu consulta o duda"></textarea>
-                <p id="caracteresRestantes">0/1000</p>
-
-    
+   
                 <input type="submit" class="boton" value="Enviar">
-
-                <div id="mensaje" class="error">
-                    
-                </div>
-                    
+     
             </form>
 
         </section>
     </main>
     <footer>
-
+        <div class="redes_footer cajas_footer">
+            <h5>REDES SOCIALES: </h5>
+            <div class="iconos_redes">
+                <a href="https://www.facebook.com/" target="_blank">facebook</a>
+                <a href="https://www.twitter.com/" target="_blank">twitter</a>
+                <a href="https://www.instagram.com/" target="_blank">instagram</a>
+                <a href="https://ar.linkedin.com/" target="_blank">linkedin</a>
+            </div>
+        </div>
     </footer>
     <script src="eventos.js"></script>
 </body>
